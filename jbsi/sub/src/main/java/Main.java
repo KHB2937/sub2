@@ -33,8 +33,8 @@ public class Main {
         private ResultSet rs = null;
 
         private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-        private static final String URL = "jdbc:mysql://aws.connect.psdb.cloud/my_db?sslMode=VERIFY_IDENTITY";
-        private static final String USERNAME = "26k4wk6eqks4xnawd4ob";
+        private static final String URL = "jdbc:mysql://aws.connect.psdb.cloud/my_db?sslMode=VERIFY_IDENTITY"; // 이 db는 mysql이 아니고 온라인db저장소
+        private static final String USERNAME = "26k4wk6eqks4xnawd4ob"; //https://app.planetscale.com/
         private static final String PASSWORD = "pscale_pw_vjWJo894PHp5WkCgBck2T9kAoPoPk6r16FpY0J0iSV1";
 
         public void connect() throws Exception {
